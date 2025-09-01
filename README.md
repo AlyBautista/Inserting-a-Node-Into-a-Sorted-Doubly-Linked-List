@@ -1,1 +1,1 @@
-# Inserting-a-Node-Into-a-Sorted-Doubly-Linked-List
+I first create a new node with the given data. If the list is empty, I return the new node. If the new data is smaller than the head’s data, I insert the new node before the head and return it as the new head. Otherwise, I move through the list until I find the right spot where the data should go. Then I insert the new node by updating the next and prev links of the surrounding nodes. Finally, I return the head of the updated list.
